@@ -309,9 +309,8 @@ open class RCMarkdownParser: RCBaseParser {
             let linkUrlRange = NSRange(location: linkRange.location + 1, length: linkRange.length - 2)
             let linkUrlString = string().substring(with: linkUrlRange)
 
-            let linkTextRange = NSRange(location: linkEnd.location + 1, length: match.range.length - linkEnd.location - 2)
-
-            guard string().length >= linkTextRange.location + linkTextRange.length else { return }
+            let linkTextLength = match.range.length + match.range.location - linkEnd.location - 1
+            let linkTextRange = NSRange(location: linkEnd.location + 1, length: linkTextLength)
 
             let linkTextString = string().substring(with: linkTextRange)
 
