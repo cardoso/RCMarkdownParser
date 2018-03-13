@@ -385,8 +385,8 @@ open class RCMarkdownParser: RCBaseParser {
     }
 
     fileprivate class func stringWithHexaString(_ hexaString: String, atIndex index: Int) -> String {
-        let range = hexaString.characters.index(hexaString.startIndex, offsetBy: index)..<hexaString.characters.index(hexaString.startIndex, offsetBy: index + 4)
-        let sub = hexaString.substring(with: range)
+        let range = hexaString.index(hexaString.startIndex, offsetBy: index)..<hexaString.index(hexaString.startIndex, offsetBy: index + 4)
+        let sub = String(hexaString[range])
 
         let char = Character(UnicodeScalar(Int(strtoul(sub, nil, 16)))!)
         return "\(char)"
