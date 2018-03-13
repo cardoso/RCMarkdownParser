@@ -30,7 +30,7 @@ public extension NSAttributedString {
         var numberedListIsFirstLine = false
         var previousCharacter: Character?
         enumerateAttributes(in: NSRange(location: 0, length: length), options: []) { attributes, range, shouldStop in
-            if let traits = (attributes[NSFontAttributeName] as? UIFont)?.fontDescriptor.symbolicTraits {
+            if let traits = (attributes[.font] as? UIFont)?.fontDescriptor.symbolicTraits {
                 let boldChange = FormattingChange.getFormattingChange(stringHasBoldEnabled, after: traits.contains(.traitBold))
                 let italicChange = FormattingChange.getFormattingChange(stringHasItalicEnabled, after: traits.contains(.traitItalic))
                 var formatString = ""
