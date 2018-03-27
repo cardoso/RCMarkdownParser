@@ -19,6 +19,9 @@ class RCMarkdownParserTests: XCTestCase {
         //We have to reinitialize the parser for every test because the parsing rules can change from test to test
         parser = RCMarkdownParser(withDefaultParsing: false)
         standardParser = RCMarkdownParser()
+
+        let font = UIFont.systemFont(ofSize: 12)
+        parser.defaultAttributes = [.font: font]
     }
     
     func testBasicBoldParsing() {
@@ -106,7 +109,7 @@ class RCMarkdownParserTests: XCTestCase {
     }
     
     func testDefaultMonospaceParsing() {
-        let font = standardParser.codeAttributes[.font] as? UIFont
+        let font = standardParser.inlineCodeAttributes[.font] as? UIFont
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\nI drink in `a café` everyday")
         XCTAssertEqual(attributedString?.attribute(.font, at: 20, effectiveRange: nil) as? UIFont, font)
         XCTAssertEqual(attributedString?.string, "Hello\nI drink in a café everyday")
@@ -193,12 +196,12 @@ class RCMarkdownParserTests: XCTestCase {
     
     func testDefaultQuoteParsing() {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n> I drink in a café everyday\nto use Wi-Fi")
-        XCTAssertEqual(attributedString!.string, "Hello\n\tI drink in a café everyday\nto use Wi-Fi")
+        XCTAssertEqual(attributedString!.string, "Hello\n I drink in a café everyday\nto use Wi-Fi")
     }
 
     func testDefaultQuoteLevel2Parsing() {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n>> I drink in a café everyday\nto use Wi-Fi")
-        XCTAssertEqual(attributedString!.string, "Hello\n\t\tI drink in a café everyday\nto use Wi-Fi")
+        XCTAssertEqual(attributedString!.string, "Hello\n> I drink in a café everyday\nto use Wi-Fi")
     }
     
     func testDefaultListWithAsteriskParsingMultiple() {
@@ -273,7 +276,7 @@ class RCMarkdownParserTests: XCTestCase {
         XCTAssertEqual(linkColor, UIColor.blue)
         
         let linkAtTheNextCharacter = attributedString?.attribute(.link, at: 21, effectiveRange: nil)
-        XCTAssertNil(linkAtTheNextCharacter);
+        XCTAssertNil(linkAtTheNextCharacter)
     }
     
     func testDefaultLinkParsingWithEscapedHyphen() {
@@ -292,7 +295,7 @@ class RCMarkdownParserTests: XCTestCase {
         XCTAssertEqual(linkColor, UIColor.blue)
         
         let linkAtTheNextCharacter = attributedString?.attribute(.link, at: 21, effectiveRange: nil)
-        XCTAssertNil(linkAtTheNextCharacter);
+        XCTAssertNil(linkAtTheNextCharacter)
     }
     
     func testDefaultLinkParsingWithUnescapedHyphen() {
@@ -311,7 +314,7 @@ class RCMarkdownParserTests: XCTestCase {
         XCTAssertEqual(linkColor, UIColor.blue)
         
         let linkAtTheNextCharacter = attributedString?.attribute(.link, at: 21, effectiveRange: nil)
-        XCTAssertNil(linkAtTheNextCharacter);
+        XCTAssertNil(linkAtTheNextCharacter)
     }
     
     func testDefaultAutoLinkParsing() {
@@ -442,9 +445,9 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n# Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 10, effectiveRange: nil) as? UIFont
         let expectedFont = standardParser.headerAttributes[0]?[.font] as? UIFont
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
-        XCTAssertEqual(font?.pointSize, 23.0);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
+        XCTAssertEqual(font?.pointSize, 23.0)
         XCTAssertFalse((attributedString?.string.contains("#"))!)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
     }
@@ -489,8 +492,8 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n## Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 10, effectiveRange: nil) as? UIFont
         let expectedFont = standardParser.headerAttributes[1]?[.font] as? UIFont
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
         XCTAssertFalse((attributedString?.string.contains("#"))!)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
     }
@@ -499,8 +502,8 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n### Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 10, effectiveRange: nil) as? UIFont
         let expectedFont = standardParser.headerAttributes[2]?[.font] as? UIFont
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
         XCTAssertEqual(font?.pointSize, 19.0)
         XCTAssertFalse((attributedString?.string.contains("#"))!)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
@@ -510,8 +513,8 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n#### Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 10, effectiveRange: nil) as? UIFont
         let expectedFont = standardParser.headerAttributes[3]?[.font] as? UIFont
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
         XCTAssertEqual(font?.pointSize, 17.0)
         XCTAssertFalse((attributedString?.string.contains("#"))!)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
@@ -521,8 +524,8 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n##### Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 10, effectiveRange: nil) as? UIFont
         let expectedFont = standardParser.headerAttributes[4]?[.font] as? UIFont
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
         XCTAssertEqual(font?.pointSize, 15.0)
         XCTAssertFalse((attributedString?.string.contains("#"))!)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
@@ -532,8 +535,8 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n###### Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 10, effectiveRange: nil) as? UIFont
         let expectedFont = standardParser.headerAttributes[5]?[.font] as? UIFont
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
         XCTAssertEqual(font?.pointSize, 13.0)
         XCTAssertFalse((attributedString?.string.contains("#"))!)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
@@ -543,8 +546,8 @@ class RCMarkdownParserTests: XCTestCase {
         let attributedString = standardParser.attributedStringFromMarkdown("Hello\n###### Men att Pär är här\nmen inte Pia")
         let font = attributedString?.attribute(.font, at: 30, effectiveRange: nil) as? UIFont
         let expectedFont = UIFont.systemFont(ofSize: 12)
-        XCTAssertNotNil(font);
-        XCTAssertEqual(font, expectedFont);
+        XCTAssertNotNil(font)
+        XCTAssertEqual(font, expectedFont)
         XCTAssertEqual(font?.pointSize, 12.0)
         XCTAssertEqual(attributedString?.string, "Hello\nMen att Pär är här\nmen inte Pia")
     }
