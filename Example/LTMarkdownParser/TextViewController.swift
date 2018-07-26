@@ -74,7 +74,7 @@ class TextViewController: RichTextViewController {
         textView.becomeFirstResponder()
     }
     
-    func parse() {
+    @objc func parse() {
         if parsed {
             // Switch to attributedString
             textView.attributedText = RCMarkdownParser.standardParser.attributedStringFromMarkdown(textView.text)
@@ -124,7 +124,7 @@ class TextViewController: RichTextViewController {
     
     // MARK: Keyboard Actions
     
-    func keyboardWillChangeFrame(_ notification: Notification) {
+    @objc func keyboardWillChangeFrame(_ notification: Notification) {
         // 'keyboardWillChangeFrame is to catch most of the situations of the keyboard, except if it's undocked, in which case we'll have to let keyboardDidChangeFrame correct the constraint
         guard let keyboardFrameEnd = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
         
@@ -134,7 +134,7 @@ class TextViewController: RichTextViewController {
     
     /// 'keyboardDidChangeFrame is to catch an undocked keyboard moving. That provides zero for the end frame on willChange, but provides a 0 for the begin frame here and the real value for the end frame
     /// This method can be deleted if you don't want to put the toolbar above the split keyboard
-    func keyboardDidChangeFrame(_ notification: Notification) {
+    @objc func keyboardDidChangeFrame(_ notification: Notification) {
         guard let keyboardFrameBegin = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue, keyboardFrameBegin.height == 0, let keyboardFrameEnd = (notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue else { return }
         
         let animationDuration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? Double ?? 0.3

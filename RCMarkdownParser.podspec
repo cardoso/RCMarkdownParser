@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RCMarkdownParser"
-  s.version          = "3.0.6"
+  s.version          = "4.0.0"
   s.summary          = "A markdown parser written in swift"
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
+  s.swift_version = '4.0'
 
   s.source_files = 'Pod/Classes/**/*'
 

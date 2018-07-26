@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BBD3D7AD8014FE477A7E40459EAFA26 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30709079F6C14E8213A0EF290F26F42E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BBD3D7AD8014FE477A7E40459EAFA26 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 432DB33A69749158DFC05B8383B6B2B1 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11EB83B332ACAAF58C216BD1EABFF909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		1CD8754E168BA91E97CE3244C3AE50E2 /* RCBaseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74870782C745DAC15DB27BA347456187 /* RCBaseParser.swift */; };
-		1FCEB4AFED3BF9C3A6C94C1A0EDD081B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E124399E7CA6ACEE2F28800D14D468E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m */; };
-		2BC88930FAD25B420D2EAC6CB329C0E8 /* RichTextVC-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2CC2887FC011F10A6894C547561AD8 /* RichTextVC-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD8754E168BA91E97CE3244C3AE50E2 /* RCBaseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6465176C1A35BBB58F7CA113A4940AC /* RCBaseParser.swift */; };
+		1FCEB4AFED3BF9C3A6C94C1A0EDD081B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC148FBB5080D638DC6BE0AA809E977 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m */; };
+		2BC88930FAD25B420D2EAC6CB329C0E8 /* RichTextVC-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6A0CB0DECDCA74D652C1705AC9B9F1 /* RichTextVC-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3859CF91681B749E86F8DF4411A13CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		3B8BD303291C886A5E97DF5FE7982F04 /* RichTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920950B6E7B99B03E196999643F20927 /* RichTextViewController.swift */; };
 		5A1BFBBB4FA4E1411B75A409203A081A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		63A3BEC64D3F1247AF77301D019204B8 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA17FC8A1A6D675F36E4BEC7E1092BA /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m */; };
+		63A3BEC64D3F1247AF77301D019204B8 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B52C440094CD07DA6534CF81D6E8B9 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m */; };
 		6C604C43BA371F02A3DF70041B37EF13 /* String+Searching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FDD2F8E95D880408FB9E040B3D700B /* String+Searching.swift */; };
-		8BD8832B437C9337E5465D2018C954B1 /* RCMarkdownParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C15F36825EA0C4EC1B276C282C61D09D /* RCMarkdownParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6EAD796BEA3F0A44AC27B2E9A8F5A7F /* RCMarkdownParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8CAFAF22E9CE3DDD20E149BF4F30E2 /* RCMarkdownParser-dummy.m */; };
+		8BD8832B437C9337E5465D2018C954B1 /* RCMarkdownParser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4CE841229C5398984EB481EFC760056 /* RCMarkdownParser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6EAD796BEA3F0A44AC27B2E9A8F5A7F /* RCMarkdownParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEFDEE8021CB86AC3F8BD5E5A586BF /* RCMarkdownParser-dummy.m */; };
 		B23590F3A86E0D1D1A4A268279C8EACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B64DCD573BD5037F8E2ADD65F1A1B766 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C293D336254F85BE935AD235D2459687 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE8C16855E02F070C8AF9B01DD7CB461 /* RCMarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C33295980206F32DDF0573BBC59CD3 /* RCMarkdownParser.swift */; };
-		CCBACA75903343EC4EE6963621BF278E /* RichTextVC-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9E7DB14AD980362010F99243A1A7BC /* RichTextVC-iOS-dummy.m */; };
+		B64DCD573BD5037F8E2ADD65F1A1B766 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB1090259605DE86305511775451FFB /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE8C16855E02F070C8AF9B01DD7CB461 /* RCMarkdownParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0774BFD330F6002AAE0305383B60A3E2 /* RCMarkdownParser.swift */; };
+		CCBACA75903343EC4EE6963621BF278E /* RichTextVC-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F85E22EAE58366B9E4C45DF7C668E1 /* RichTextVC-iOS-dummy.m */; };
 		CD1918D7607749BE2B3E2C374671894B /* NSRange+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8225E1964CC8246178D669E458CC03 /* NSRange+Extras.swift */; };
-		E1ABB00A20EC1B435024DF2A25C30269 /* NSAttributedString+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE61A1B4610836F6A8687306E2E5F6F3 /* NSAttributedString+Markdown.swift */; };
+		E1ABB00A20EC1B435024DF2A25C30269 /* NSAttributedString+Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43D4FD912AA52CF3FB0F387ED5CF0A9 /* NSAttributedString+Markdown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,50 +52,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E124399E7CA6ACEE2F28800D14D468E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m"; sourceTree = "<group>"; };
-		0F1FC5C29AC72E19C470D5CFF4F5F25B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-frameworks.sh"; sourceTree = "<group>"; };
-		1376F99B73836A995D49B4C4113869B0 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap"; sourceTree = "<group>"; };
-		168889D4804E657325FC11FADD207CDB /* Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Tests.framework; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		192CD2E82FA1C0751AC9129B92ABDC96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0774BFD330F6002AAE0305383B60A3E2 /* RCMarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RCMarkdownParser.swift; path = Pod/Classes/RCMarkdownParser.swift; sourceTree = "<group>"; };
+		0DC4F6AFC96275E6E61DC1FE8F23D6EB /* RCMarkdownParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RCMarkdownParser.modulemap; sourceTree = "<group>"; };
+		168889D4804E657325FC11FADD207CDB /* Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		171A551169B166961C14A2FBF122BE8A /* RCMarkdownParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCMarkdownParser-prefix.pch"; sourceTree = "<group>"; };
 		1C8225E1964CC8246178D669E458CC03 /* NSRange+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSRange+Extras.swift"; path = "src/Classes/NSRange+Extras.swift"; sourceTree = "<group>"; };
-		1DC4DA414F668C58A08E5786953FF2F1 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		30709079F6C14E8213A0EF290F26F42E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h"; sourceTree = "<group>"; };
-		31969335C8F82EDB84144EA86FDAC037 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3224487171E953C74EA36DB744213FFC /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-resources.sh"; sourceTree = "<group>"; };
-		37C33295980206F32DDF0573BBC59CD3 /* RCMarkdownParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RCMarkdownParser.swift; path = Pod/Classes/RCMarkdownParser.swift; sourceTree = "<group>"; };
-		38E82623BF55A5D0E082D624B680590B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3B9E7DB14AD980362010F99243A1A7BC /* RichTextVC-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RichTextVC-iOS-dummy.m"; sourceTree = "<group>"; };
-		3CA6C94E99A3E27A5571681925D20853 /* RCMarkdownParser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RCMarkdownParser.modulemap; sourceTree = "<group>"; };
-		45595E5AE9D26061A5B7761E026C33D6 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		45EB252C511F0887067A0C3E7715DC5F /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48B8DF3422C894101C9234366022C4DA /* RCMarkdownParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCMarkdownParser.xcconfig; sourceTree = "<group>"; };
-		4AD2F6F0650E2F4989CE1F009D238753 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F808874CB84ECEE6F690F4C2734D42C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		202C9331F8E830FB5E2CA76080FFEDBD /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A83B26F45A7342088C6FA2A8E5D9D18 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39052009C7BE1E9AA10116410E39F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3C2DD3F3A85EBEE127904D360482A0C9 /* RichTextVC-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RichTextVC-iOS.modulemap"; sourceTree = "<group>"; };
+		432DB33A69749158DFC05B8383B6B2B1 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h"; sourceTree = "<group>"; };
+		45FEDC0B40AF0DF79650A56C85FAD131 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC148FBB5080D638DC6BE0AA809E977 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DA3368458378043B43ADEA454585503 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5DB1090259605DE86305511775451FFB /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h"; sourceTree = "<group>"; };
+		65C581EACFAC46B717301AFB03FC405C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6B8CAFAF22E9CE3DDD20E149BF4F30E2 /* RCMarkdownParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCMarkdownParser-dummy.m"; sourceTree = "<group>"; };
-		733D5815C879AFF18FE30A8145620AC4 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		74870782C745DAC15DB27BA347456187 /* RCBaseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RCBaseParser.swift; path = Pod/Classes/RCBaseParser.swift; sourceTree = "<group>"; };
-		761D000CCC65ECD8A881F8835007FE4F /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7807F8667A16A00D02CFEEA0510BC450 /* RichTextVC_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RichTextVC_iOS.framework; path = "RichTextVC-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8165DB25412214B7A0061B2EC5C1838E /* RCMarkdownParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCMarkdownParser-prefix.pch"; sourceTree = "<group>"; };
+		708289591CD3F125546DEFF02005443E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		77B52C440094CD07DA6534CF81D6E8B9 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m"; sourceTree = "<group>"; };
+		7807F8667A16A00D02CFEEA0510BC450 /* RichTextVC_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RichTextVC_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83FDD2F8E95D880408FB9E040B3D700B /* String+Searching.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Searching.swift"; path = "src/Classes/String+Searching.swift"; sourceTree = "<group>"; };
-		8E2CC2887FC011F10A6894C547561AD8 /* RichTextVC-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RichTextVC-iOS-umbrella.h"; sourceTree = "<group>"; };
-		8F4D5ACDCC816F1CC216DE3A0B9995BA /* RichTextVC-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RichTextVC-iOS.xcconfig"; sourceTree = "<group>"; };
+		869ABDDFF50D224728B8B9D4B8C50365 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap"; sourceTree = "<group>"; };
+		8769CB977FBF3C7F08AD2195978E58DD /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		920950B6E7B99B03E196999643F20927 /* RichTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RichTextViewController.swift; path = src/Classes/RichTextViewController.swift; sourceTree = "<group>"; };
-		92AEF83098D18038187C9783C1EB83C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94F19414CA330F9D40BA2F0C02AD6297 /* RichTextVC-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "RichTextVC-iOS.modulemap"; sourceTree = "<group>"; };
-		9FFD1A88A13BD2F504E7FE0BA78D9812 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-resources.sh"; sourceTree = "<group>"; };
-		B38D39D16DF78F888531E2EA3FFD12EF /* RCMarkdownParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RCMarkdownParser.framework; path = RCMarkdownParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B560CAD69D57FD209F2CF3CA9E505E09 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap"; sourceTree = "<group>"; };
-		BAA17FC8A1A6D675F36E4BEC7E1092BA /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m"; sourceTree = "<group>"; };
-		C15F36825EA0C4EC1B276C282C61D09D /* RCMarkdownParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCMarkdownParser-umbrella.h"; sourceTree = "<group>"; };
-		C293D336254F85BE935AD235D2459687 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D2ACD7E52A0A370E2E95FF8C620291B5 /* Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Example.framework; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB88E78A23A36005CB338D3A11DEC759 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EAE2FCBDEFAF2DF7A9E790F14A6EA32A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDDDA1C915C3585D1C5C44D135A37530 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE61A1B4610836F6A8687306E2E5F6F3 /* NSAttributedString+Markdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Markdown.swift"; path = "Pod/Classes/NSAttributedString+Markdown.swift"; sourceTree = "<group>"; };
-		FAFF0976E935D2F9FF44AFBBD66AD8E1 /* RichTextVC-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RichTextVC-iOS-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B6A0CB0DECDCA74D652C1705AC9B9F1 /* RichTextVC-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RichTextVC-iOS-umbrella.h"; sourceTree = "<group>"; };
+		A37955CC4BE852D6A5967A2588AC2514 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap"; sourceTree = "<group>"; };
+		A4CE841229C5398984EB481EFC760056 /* RCMarkdownParser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RCMarkdownParser-umbrella.h"; sourceTree = "<group>"; };
+		B38D39D16DF78F888531E2EA3FFD12EF /* RCMarkdownParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCMarkdownParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A962B284FEEFC614068F84F5D7A36A /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-resources.sh"; sourceTree = "<group>"; };
+		B804F884FD0852C99E8BB913924D6371 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-resources.sh"; sourceTree = "<group>"; };
+		CCAE60DBCF5AAB00464BF106C0FAA4FD /* RichTextVC-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RichTextVC-iOS-prefix.pch"; sourceTree = "<group>"; };
+		D2ACD7E52A0A370E2E95FF8C620291B5 /* Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6E9AB5B96C7F3743CF2B5839600C30 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF7B876FB6883145089AB03BE195092C /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2F85E22EAE58366B9E4C45DF7C668E1 /* RichTextVC-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RichTextVC-iOS-dummy.m"; sourceTree = "<group>"; };
+		E43D4FD912AA52CF3FB0F387ED5CF0A9 /* NSAttributedString+Markdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Markdown.swift"; path = "Pod/Classes/NSAttributedString+Markdown.swift"; sourceTree = "<group>"; };
+		EB060ED13DA15D85CF9192CC9DBF0F1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1935AB1614F9C47A5735FAF3DCF28D /* RCMarkdownParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RCMarkdownParser.xcconfig; sourceTree = "<group>"; };
+		EFE285D109F8183C9A9C93FF338A6A50 /* RichTextVC-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RichTextVC-iOS.xcconfig"; sourceTree = "<group>"; };
+		F0F6E5B6F83B371CD2CF9023B74BA11C /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F25974660310EFE5EE461A0F95936D82 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F144DD78261E0F690225724F500E5C /* RCMarkdownParser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RCMarkdownParser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5BEFDEE8021CB86AC3F8BD5E5A586BF /* RCMarkdownParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RCMarkdownParser-dummy.m"; sourceTree = "<group>"; };
+		F617AC6027537E4BA3869FCA27F5DC18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F6465176C1A35BBB58F7CA113A4940AC /* RCBaseParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RCBaseParser.swift; path = Pod/Classes/RCBaseParser.swift; sourceTree = "<group>"; };
+		F734728A49723711AD1E2CD6E312C4D8 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,29 +137,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02A4B7CF42B5592965F8701732669756 /* Support Files */ = {
+		06F3033321D71482292DA45591563C81 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EAE2FCBDEFAF2DF7A9E790F14A6EA32A /* Info.plist */,
-				3CA6C94E99A3E27A5571681925D20853 /* RCMarkdownParser.modulemap */,
-				48B8DF3422C894101C9234366022C4DA /* RCMarkdownParser.xcconfig */,
-				6B8CAFAF22E9CE3DDD20E149BF4F30E2 /* RCMarkdownParser-dummy.m */,
-				8165DB25412214B7A0061B2EC5C1838E /* RCMarkdownParser-prefix.pch */,
-				C15F36825EA0C4EC1B276C282C61D09D /* RCMarkdownParser-umbrella.h */,
+				D62CA238BD024290604DB42A01554101 /* RCMarkdownParser */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RCMarkdownParser";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		230500C9163DACAF6D251916C8286547 /* Support Files */ = {
+		33D5DB7854D49F824A2F72755FF109C5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4AD2F6F0650E2F4989CE1F009D238753 /* Info.plist */,
-				94F19414CA330F9D40BA2F0C02AD6297 /* RichTextVC-iOS.modulemap */,
-				8F4D5ACDCC816F1CC216DE3A0B9995BA /* RichTextVC-iOS.xcconfig */,
-				3B9E7DB14AD980362010F99243A1A7BC /* RichTextVC-iOS-dummy.m */,
-				FAFF0976E935D2F9FF44AFBBD66AD8E1 /* RichTextVC-iOS-prefix.pch */,
-				8E2CC2887FC011F10A6894C547561AD8 /* RichTextVC-iOS-umbrella.h */,
+				EB060ED13DA15D85CF9192CC9DBF0F1F /* Info.plist */,
+				3C2DD3F3A85EBEE127904D360482A0C9 /* RichTextVC-iOS.modulemap */,
+				EFE285D109F8183C9A9C93FF338A6A50 /* RichTextVC-iOS.xcconfig */,
+				E2F85E22EAE58366B9E4C45DF7C668E1 /* RichTextVC-iOS-dummy.m */,
+				CCAE60DBCF5AAB00464BF106C0FAA4FD /* RichTextVC-iOS-prefix.pch */,
+				9B6A0CB0DECDCA74D652C1705AC9B9F1 /* RichTextVC-iOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/RichTextVC-iOS";
@@ -170,16 +167,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4DC37D5EF71D42CFC5450F5A23A03405 /* RCMarkdownParser */ = {
+		45068C3F538769AC133096E09212E5B4 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				EE61A1B4610836F6A8687306E2E5F6F3 /* NSAttributedString+Markdown.swift */,
-				74870782C745DAC15DB27BA347456187 /* RCBaseParser.swift */,
-				37C33295980206F32DDF0573BBC59CD3 /* RCMarkdownParser.swift */,
-				02A4B7CF42B5592965F8701732669756 /* Support Files */,
+				65C581EACFAC46B717301AFB03FC405C /* Info.plist */,
+				869ABDDFF50D224728B8B9D4B8C50365 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap */,
+				2A83B26F45A7342088C6FA2A8E5D9D18 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.markdown */,
+				4DA3368458378043B43ADEA454585503 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.plist */,
+				4BC148FBB5080D638DC6BE0AA809E977 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m */,
+				F0F6E5B6F83B371CD2CF9023B74BA11C /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-frameworks.sh */,
+				B804F884FD0852C99E8BB913924D6371 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-resources.sh */,
+				5DB1090259605DE86305511775451FFB /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h */,
+				45FEDC0B40AF0DF79650A56C85FAD131 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig */,
+				F734728A49723711AD1E2CD6E312C4D8 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig */,
 			);
-			name = RCMarkdownParser;
-			path = ../..;
+			name = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests";
+			path = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests";
+			sourceTree = "<group>";
+		};
+		57182E1CCCD39920B6B3E12232AE928E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				39052009C7BE1E9AA10116410E39F66A /* LICENSE */,
+				F4F144DD78261E0F690225724F500E5C /* RCMarkdownParser.podspec */,
+				F617AC6027537E4BA3869FCA27F5DC18 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5C6D1F3B81A06DD3081AE9E7E770BE58 /* RichTextVC-iOS */ = {
@@ -188,9 +201,8 @@
 				1C8225E1964CC8246178D669E458CC03 /* NSRange+Extras.swift */,
 				920950B6E7B99B03E196999643F20927 /* RichTextViewController.swift */,
 				83FDD2F8E95D880408FB9E040B3D700B /* String+Searching.swift */,
-				230500C9163DACAF6D251916C8286547 /* Support Files */,
+				33D5DB7854D49F824A2F72755FF109C5 /* Support Files */,
 			);
-			name = "RichTextVC-iOS";
 			path = "RichTextVC-iOS";
 			sourceTree = "<group>";
 		};
@@ -205,42 +217,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6FCC9C75246549830C8776BD66A0F295 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				92AEF83098D18038187C9783C1EB83C5 /* Info.plist */,
-				B560CAD69D57FD209F2CF3CA9E505E09 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap */,
-				31969335C8F82EDB84144EA86FDAC037 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.markdown */,
-				733D5815C879AFF18FE30A8145620AC4 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-acknowledgements.plist */,
-				0E124399E7CA6ACEE2F28800D14D468E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-dummy.m */,
-				1DC4DA414F668C58A08E5786953FF2F1 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-frameworks.sh */,
-				9FFD1A88A13BD2F504E7FE0BA78D9812 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-resources.sh */,
-				C293D336254F85BE935AD235D2459687 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests-umbrella.h */,
-				45EB252C511F0887067A0C3E7715DC5F /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig */,
-				38E82623BF55A5D0E082D624B680590B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig */,
-			);
-			name = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests";
-			path = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9128398196F479D816B6A7F00C2C21BE /* Development Pods */,
+				06F3033321D71482292DA45591563C81 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				393FF20E4FF1702E0763EC9E73D28B99 /* Pods */,
 				6B90AD475FE88F39DA066530EC615156 /* Products */,
 				DE872B6B8581349BCE53567D57136ADB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9128398196F479D816B6A7F00C2C21BE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4DC37D5EF71D42CFC5450F5A23A03405 /* RCMarkdownParser */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -251,6 +237,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C87085A38FFBB06EAB17EC06FE343A18 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F25974660310EFE5EE461A0F95936D82 /* Info.plist */,
+				A37955CC4BE852D6A5967A2588AC2514 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap */,
+				DC6E9AB5B96C7F3743CF2B5839600C30 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.markdown */,
+				8769CB977FBF3C7F08AD2195978E58DD /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.plist */,
+				77B52C440094CD07DA6534CF81D6E8B9 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m */,
+				DF7B876FB6883145089AB03BE195092C /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-frameworks.sh */,
+				B3A962B284FEEFC614068F84F5D7A36A /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-resources.sh */,
+				432DB33A69749158DFC05B8383B6B2B1 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h */,
+				202C9331F8E830FB5E2CA76080FFEDBD /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig */,
+				708289591CD3F125546DEFF02005443E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig */,
+			);
+			name = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example";
+			path = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example";
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,31 +263,40 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		D62CA238BD024290604DB42A01554101 /* RCMarkdownParser */ = {
+			isa = PBXGroup;
+			children = (
+				E43D4FD912AA52CF3FB0F387ED5CF0A9 /* NSAttributedString+Markdown.swift */,
+				F6465176C1A35BBB58F7CA113A4940AC /* RCBaseParser.swift */,
+				0774BFD330F6002AAE0305383B60A3E2 /* RCMarkdownParser.swift */,
+				57182E1CCCD39920B6B3E12232AE928E /* Pod */,
+				D66C0ED60573CBEE0FAD7365F8E3E994 /* Support Files */,
+			);
+			name = RCMarkdownParser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D66C0ED60573CBEE0FAD7365F8E3E994 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F808874CB84ECEE6F690F4C2734D42C /* Info.plist */,
+				0DC4F6AFC96275E6E61DC1FE8F23D6EB /* RCMarkdownParser.modulemap */,
+				EE1935AB1614F9C47A5735FAF3DCF28D /* RCMarkdownParser.xcconfig */,
+				F5BEFDEE8021CB86AC3F8BD5E5A586BF /* RCMarkdownParser-dummy.m */,
+				171A551169B166961C14A2FBF122BE8A /* RCMarkdownParser-prefix.pch */,
+				A4CE841229C5398984EB481EFC760056 /* RCMarkdownParser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RCMarkdownParser";
+			sourceTree = "<group>";
+		};
 		DE872B6B8581349BCE53567D57136ADB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E58178B20F328E4233E9B84E4AA3D7C7 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example */,
-				6FCC9C75246549830C8776BD66A0F295 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests */,
+				C87085A38FFBB06EAB17EC06FE343A18 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example */,
+				45068C3F538769AC133096E09212E5B4 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E58178B20F328E4233E9B84E4AA3D7C7 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example */ = {
-			isa = PBXGroup;
-			children = (
-				192CD2E82FA1C0751AC9129B92ABDC96 /* Info.plist */,
-				1376F99B73836A995D49B4C4113869B0 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap */,
-				EDDDA1C915C3585D1C5C44D135A37530 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.markdown */,
-				DB88E78A23A36005CB338D3A11DEC759 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-acknowledgements.plist */,
-				BAA17FC8A1A6D675F36E4BEC7E1092BA /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-dummy.m */,
-				0F1FC5C29AC72E19C470D5CFF4F5F25B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-frameworks.sh */,
-				3224487171E953C74EA36DB744213FFC /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-resources.sh */,
-				30709079F6C14E8213A0EF290F26F42E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example-umbrella.h */,
-				761D000CCC65ECD8A881F8835007FE4F /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig */,
-				45595E5AE9D26061A5B7761E026C33D6 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig */,
-			);
-			name = "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example";
-			path = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -401,8 +414,13 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					0D5F5BD380FA9B1827335B7C7AD8B3DB = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -487,99 +505,57 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		04FB46999ADE86256346328CE25FF2ED /* Debug */ = {
+		1F16F681B0E5D001149EA768A5D65F95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F4D5ACDCC816F1CC216DE3A0B9995BA /* RichTextVC-iOS.xcconfig */;
+			baseConfigurationReference = EE1935AB1614F9C47A5735FAF3DCF28D /* RCMarkdownParser.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RichTextVC-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RichTextVC_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		215018E24FF638599544D08DBE86969D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48B8DF3422C894101C9234366022C4DA /* RCMarkdownParser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/RCMarkdownParser/RCMarkdownParser-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RCMarkdownParser/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RCMarkdownParser/RCMarkdownParser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = RCMarkdownParser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6800E7A5AD9AF519B6CF1165C08EEB2B /* Debug */ = {
+		22E5BE690A2EECD3CC0512D838377591 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 761D000CCC65ECD8A881F8835007FE4F /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig */;
+			baseConfigurationReference = 202C9331F8E830FB5E2CA76080FFEDBD /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -589,37 +565,156 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		6FF012F4471D342450320E39B40C638A /* Debug */ = {
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48B8DF3422C894101C9234366022C4DA /* RCMarkdownParser.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		29262791F38B0E13570C4421EE1B7DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE285D109F8183C9A9C93FF338A6A50 /* RichTextVC-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RCMarkdownParser/RCMarkdownParser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RCMarkdownParser/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RichTextVC-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RCMarkdownParser/RCMarkdownParser.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RCMarkdownParser;
+				MODULEMAP_FILE = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS.modulemap";
+				PRODUCT_NAME = RichTextVC_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		31656EA30D0E2D010DBF1140C70B73F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FEDC0B40AF0DF79650A56C85FAD131 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68E51C742642CF1291EB7C241BA9C52E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE285D109F8183C9A9C93FF338A6A50 /* RichTextVC-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RichTextVC-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS.modulemap";
+				PRODUCT_NAME = RichTextVC_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -631,29 +726,25 @@
 			};
 			name = Debug;
 		};
-		73ABC46EB4514A050E37CB1F2EC1DBD0 /* Release */ = {
+		727F55CB6E119A14D58A5206EE254A5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38E82623BF55A5D0E082D624B680590B /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig */;
+			baseConfigurationReference = F734728A49723711AD1E2CD6E312C4D8 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -662,215 +753,138 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		761D88B891FE4FE9187C061902C0E6A2 /* Release */ = {
+		D321C797BC2DF4533147DEF8A3C848CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F4D5ACDCC816F1CC216DE3A0B9995BA /* RichTextVC-iOS.xcconfig */;
+			baseConfigurationReference = EE1935AB1614F9C47A5735FAF3DCF28D /* RCMarkdownParser.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RichTextVC-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RCMarkdownParser/RCMarkdownParser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RCMarkdownParser/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RichTextVC-iOS/RichTextVC-iOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RichTextVC_iOS;
+				MODULEMAP_FILE = "Target Support Files/RCMarkdownParser/RCMarkdownParser.modulemap";
+				PRODUCT_NAME = RCMarkdownParser;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC913EDA9D4F0E65FBEA456DD5A57649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708289591CD3F125546DEFF02005443E /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DD5AC28712EEFB67CF97954DAA4FF9C2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45595E5AE9D26061A5B7761E026C33D6 /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FF9DBFC0500C25455D15A3D4E9D76BA7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45EB252C511F0887067A0C3E7715DC5F /* Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests/Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RCMarkdownParser_ExampleAbstract_RCMarkdownParser_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
@@ -880,8 +894,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
-				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -889,8 +903,8 @@
 		6A197BCB2635CD0F5F91DF4070560C3F /* Build configuration list for PBXNativeTarget "RCMarkdownParser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FF012F4471D342450320E39B40C638A /* Debug */,
-				215018E24FF638599544D08DBE86969D /* Release */,
+				D321C797BC2DF4533147DEF8A3C848CC /* Debug */,
+				1F16F681B0E5D001149EA768A5D65F95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -898,8 +912,8 @@
 		6C5B6FDBB44E6AC5BA786D5C90D3849A /* Build configuration list for PBXNativeTarget "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF9DBFC0500C25455D15A3D4E9D76BA7 /* Debug */,
-				73ABC46EB4514A050E37CB1F2EC1DBD0 /* Release */,
+				31656EA30D0E2D010DBF1140C70B73F6 /* Debug */,
+				727F55CB6E119A14D58A5206EE254A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -907,8 +921,8 @@
 		E3A562DAC7F6ADAC7A94C12022DC36B8 /* Build configuration list for PBXNativeTarget "Pods-RCMarkdownParser_ExampleAbstract-RCMarkdownParser_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6800E7A5AD9AF519B6CF1165C08EEB2B /* Debug */,
-				DD5AC28712EEFB67CF97954DAA4FF9C2 /* Release */,
+				22E5BE690A2EECD3CC0512D838377591 /* Debug */,
+				DC913EDA9D4F0E65FBEA456DD5A57649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -916,8 +930,8 @@
 		E92495532789AE125D0C5C3B650A68D6 /* Build configuration list for PBXNativeTarget "RichTextVC-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				04FB46999ADE86256346328CE25FF2ED /* Debug */,
-				761D88B891FE4FE9187C061902C0E6A2 /* Release */,
+				68E51C742642CF1291EB7C241BA9C52E /* Debug */,
+				29262791F38B0E13570C4421EE1B7DC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
